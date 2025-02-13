@@ -3,28 +3,29 @@ import ImagenHero from "../../../../public/energia-solar.jpg"; // Importa la ima
 
 const SeccionHero = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between p-8 bg-green-100">
-      {/* Contenedor de la imagen */}
-      <div className="w-full md:w-1/2 mb-8 md:mb-0">
-        <img
-          src={ImagenHero}
-          alt="Micelium Energía Renovable"
-          className="rounded-lg shadow-lg"
-        />
-      </div>
-
+    <section className="border border-red-500 h-screen flex flex-col md:flex-row items-center justify-center p-8">
       {/* Contenedor de la información */}
-      <div className="w-full md:w-1/2 md:pl-8">
-        <h1 className="text-4xl font-bold text-green-900 mb-4">
-          Llevando tu negocio al siguiente nivel
+      <div className="w-full md:w-1/2 md:pr-8 text-center md:text-left">
+        <h1 className="text-8xl font-bold text-gray-900 mb-6">
+          Micelium Proyecto
         </h1>
-        <p className="text-lg text-green-700 mb-6">
+        <h2 className="text-2xl font-semibold text-gray-700 mb-4">Proyecto</h2>
+        <p className="text-lg text-gray-600 mb-8">
           Micelium es nuestro proyecto sobre energía renovable. Ofrecemos
           soluciones innovadoras y sostenibles para un futuro más verde.
         </p>
-        <button className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition duration-300">
+        <button className=" bg-blue-500 hover:bg-blue-800 text-white px-8 py-3 rounded-lg transition duration-300">
           Más información
         </button>
+      </div>
+
+      {/* Contenedor de la imagen */}
+      <div className="w-full md:w-1/2 mt-8 md:mt-0">
+        <img
+          src={ImagenHero}
+          alt="Micelium Energía Renovable"
+          className="rounded-lg shadow-lg w-full h-auto"
+        />
       </div>
     </section>
   );
