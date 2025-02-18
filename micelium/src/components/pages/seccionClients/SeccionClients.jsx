@@ -4,7 +4,7 @@ const SeccionClientes = () => {
   return (
     <section className="py-12 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-green-900 mb-8">
+        <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
           Nuestros Clientes
         </h2>
         <div className="flex flex-wrap justify-center gap-8">

@@ -6,7 +6,7 @@ const SeccionHero = () => {
     <section className="border border-red-500 h-screen flex flex-col md:flex-row items-center justify-center p-8">
       {/* Contenedor de la información */}
       <div className="w-full md:w-1/2 md:pr-8 text-center md:text-left">
-        <h1 className="text-8xl font-bold text-gray-900 mb-6">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 mb-6">
           Micelium Proyecto
         </h1>
         <h2 className="text-2xl font-semibold text-gray-700 mb-4">Proyecto</h2>
